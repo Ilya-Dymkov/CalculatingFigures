@@ -1,8 +1,8 @@
-﻿using CalculatingFigures.Figures.FiguresSource;
+﻿using CalculatingFigures.Figures.Source;
 
 namespace CalculatingFigures.Figures;
 
-public class Circle : ICalculatingArea, ICalculatingPerimeter
+public class Circle : IAreaFigure, IPerimeterFigure
 {
     private double _radius;
 
@@ -11,16 +11,17 @@ public class Circle : ICalculatingArea, ICalculatingPerimeter
         get => _radius;
         set
         {
-            if (value <= 0)
-                throw new ArgumentException("The radius of the circle is set incorrectly!");
+            if (value <= 0) throw new ArgumentException("The radius of the circle is set incorrectly!");
             
             _radius = value;
         }
     }
+    
+    public string GetParameters() => $"{nameof(Radius)}: {Radius}";
 
     public Circle(double radius) => Radius = radius;
 
-    public double CalculatingArea() => Radius * Radius * Math.PI;
+    public double GetArea() => Radius * Radius * Math.PI;
 
-    public double CalculatingPerimeter() => 2 * Math.PI * Radius;
+    public double GetPerimeter() => 2 * Math.PI * Radius;
 }

@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatingFigures", "Calcu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsCalculates", "TestsCalculates\TestsCalculates.csproj", "{1D9CF968-2870-4029-9912-B41789F4721D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleCalculatingFigures", "ExampleCalculatingFigures\ExampleCalculatingFigures.csproj", "{0C91D41C-1E7A-44FD-9D73-35248DEEE555}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1D9CF968-2870-4029-9912-B41789F4721D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D9CF968-2870-4029-9912-B41789F4721D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D9CF968-2870-4029-9912-B41789F4721D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C91D41C-1E7A-44FD-9D73-35248DEEE555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C91D41C-1E7A-44FD-9D73-35248DEEE555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C91D41C-1E7A-44FD-9D73-35248DEEE555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C91D41C-1E7A-44FD-9D73-35248DEEE555}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
